@@ -1,0 +1,6 @@
+<md-list>
+  <h3 md-subheader>Products</h3>
+  <md-list>
+    <app-product *ngFor="let product of products" [product]="product" (onBuy)="onBuy()"></app-product>
+  </md-list>
+</md-list>

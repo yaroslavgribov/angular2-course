@@ -1,0 +1,8 @@
+<md-list *ngIf="product.quantity > 0">
+  <md-list-item>
+    {{product.name}}
+    <button md-icon-button (click)="buy()" >
+      <md-icon class="md-18">add_shopping_cart</md-icon>
+    </button>
+  </md-list-item>
+</md-list>

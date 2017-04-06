@@ -1,3 +1,7 @@
-<h1>
+<md-toolbar>
   {{title}}
-</h1>
+</md-toolbar>
+
+<app-product-list></app-product-list>
+
+<div class="basket" *ngIf="capacity > 0"> Basket </div>
